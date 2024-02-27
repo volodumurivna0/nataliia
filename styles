@@ -1,0 +1,124 @@
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*
+  ========================================
+              Headings
+  ========================================
+*/
+h1,h2,h3,h4,h5,p {
+    font-family: Georgia, serif;
+}
+h1 {
+    font-weight: 600;
+	text-align: center;
+	color: #663399;
+}
+h2 {
+
+    font-size: 20px;
+    font-weight: normal;
+    color: #9036e3;
+    text-align: left;
+    text-decoration: none;
+    line-height: 1.3;
+    margin: 10px;
+    padding: 0px 10px;
+	padding-top: 14px;
+}
+h4 {
+   padding: 0px 10px;
+   color: #8A2BE2;
+   margin: 10px;
+   padding-top: 14px;
+}
+h5 {
+   font-size: 15px;
+   margin: 10px;
+   padding-top: 14px;
+}
+p {
+   font-size: 13px;
+   font-style: italic; 
+   line-height: 1.4em;
+   padding: 0px 15px;
+}
+/*
+  ========================================
+           CONTACT INFORMATION
+  ========================================
+*/
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.listed-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.list {
+   padding: 0px 40px;
+}
+/*
+  ========================================
+                IMAGE-CARD
+  ========================================
+*/
+.card {
+    padding: 250px 0;
+	background-image: url("assets/images/john-doe.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 600px 600px; /*cover*/
+}
+.card h3 {
+	font-size: 3.5em;
+	text-align: center;
+	font-family: Lobster;
+	letter-spacing: .1em;
+}
+.card span {
+	background-color: rgba(0,0,0, 0.1);
+	color: #F5F5F5;
+	padding: 10px 165px;
+	display: inline-block;
+}
+/*
+  ========================================
+                TABLE
+  ========================================
+*/
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: 65px;
+}
+td {
+    border: 2px solid black;
+    padding: 3px;
+}
+
+th {
+    border: 2px solid black;
+    padding: 3px;
+}
+/*
+  ========================================
+                FORM
+  ========================================
+*/
+form {
+   padding: 0px 12px;
+}
+input,textarea {
+   padding-top: 10px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
